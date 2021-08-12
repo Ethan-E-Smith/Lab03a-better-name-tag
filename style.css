@@ -1,0 +1,39 @@
+.nametag {
+    display:grid;
+    color: white;
+    width: 300px;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    grid-template-rows:
+    100px 100px 50px;
+    border-radius: 10px;
+    background-color: red
+}
+
+.top {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:  center;
+}
+
+.hello {
+    font-size: 4rem;
+}
+
+.middle {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    color:black;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    
+    
+    
+}
+
+.bottom{
+    height:100px;
+}
